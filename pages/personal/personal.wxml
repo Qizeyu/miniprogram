@@ -1,0 +1,62 @@
+<view class="container">
+  <view class="userinfo">
+    <view class="userinfoImage">
+      <image class="userinfo-image" src="../../imags/timg.gif"></image>
+    </view>
+    <view class='userinfoText'>
+          <text class="userinfo-text">祁泽宇\n    </text>
+          <text class="userinfo-text">计算机学院</text>
+    </view>
+   
+          <button class="loginbutton">登陆/注册</button> 
+  </view>
+  <view class="personlist">
+    <view>
+      <navigator url="../my_transaction/my_transaction">
+        <view class="list-item" >
+        <image class="item-image" src="../../imags/myincome.png"></image>
+        <text class="item-text">我的发布</text>
+        </view>
+        </navigator>
+        <view class="person-line"></view>
+    </view>
+    <view>
+      <navigator url="../my_transaction/my_transaction">
+        <view class="list-item" >
+        <image class="item-image" src="../../imags/myseller.png"></image>
+        <text class="item-text">我的卖出</text>
+        </view>
+      </navigator>
+     <view class="person-line"></view>
+    </view>
+    <view>
+      <navigator url="../my_transaction/my_transaction">
+       <view class="list-item" >
+        <image class="item-image" src="../../imags/mycollection.png"></image>
+        <text class="item-text">我的收藏</text>
+        </view>
+      </navigator>
+      <view class="person-line"></view>
+    </view>
+    <view>
+      <navigator url='../mymessage/mymessage'>
+        <view class="list-item">
+        <image class="item-image" src="../../imags/mymessage.png"></image>
+        <text class="item-text">我的信息</text>
+        </view>
+      </navigator>
+      <view class="person-line"></view>
+    </view>
+    <view>
+      <navigator url="../my_transaction/my_transaction">
+        <view class="list-item" >
+       <image class="item-image" src="../../imags/aboutUs.png"></image>
+       <text class="item-text">关于我们</text>
+       </view>
+       </navigator>
+    </view>
+
+  </view>
+</view>
+
+  

@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/personal/personal",
+    "pages/tuijian/tuijian",
+    "pages/fabu/fabu",
+    "pages/message/message",
+    "pages/mymessage/mymessage",
+    "pages/my_transaction/my_transaction"
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e74c3c",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "red",
+
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "imags/home.png",
+      "selectedIconPath": "imags/home_on.png"
+    },
+    {
+      "pagePath": "pages/tuijian/tuijian",
+      "text": "推荐",
+      "iconPath": "imags/tuijian.png",
+      "selectedIconPath": "imags/tuijan_on.png"
+    },
+    {
+      "pagePath": "pages/fabu/fabu",
+      "text": "发布",
+      "iconPath": "imags/fabu.png",
+      "selectedIconPath": "imags/fabu_on.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "imags/message.png",
+      "selectedIconPath": "imags/message_on.png"
+    },
+    {
+      "pagePath":"pages/personal/personal",
+      "text":"个人中心",
+      "iconPath":"imags/personal.png",
+      "selectedIconPath":"imags/personal_on.png"
+
+    }],
+    "resizable": true
+
+  
+
+  
+  }
+}

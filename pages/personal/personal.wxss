@@ -1,0 +1,72 @@
+.container{
+  background-color:#e8e9e7;
+  height: 1000rpx;
+}
+.userinfoImage{
+  margin: 10rpx;
+   /* border: 1px solid black; */
+
+}
+.userinfo{
+  width:100%;
+
+  background-color:white;
+  display:flex;
+  /* border: 1px solid #e8e9e7; */
+  margin-top: -150rpx;
+}
+.userinfoText{
+  /* background-color:green; */
+  width: 30%;
+  margin: 20rpx;
+}
+.loginbutton{
+ /* background-color: blue; */
+ width: 30%;
+ margin: 20rpx;
+ margin-right: -50rpx;
+align-items: center;
+}
+.userinfo-text
+{
+  left: 200rpx;
+  top:200rpx;
+}
+.userinfo-image{
+
+  width:150rpx;
+  height: 150rpx;
+}
+.personlist{
+  width:100%;
+  background-color: white;
+  margin-top:100rpx;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80rpx;
+  justify-content: flex-start;
+}
+.item-image {
+  width: 70rpx;
+  height: 70rpx;
+  margin-top: 20rpx;
+  margin-right:5rpx;
+  margin-left:20rpx;
+  margin-inline-start: 20rpx;
+
+}
+.item-text {
+  color: gray;
+  font-size: 35rpx;
+  margin-left:10rpx;
+}
+.person-line {
+  width: 80%;
+  height: 2rpx;
+  background: lightgray;
+  margin-left: 100rpx;
+  margin-right: 20rpx;
+}
